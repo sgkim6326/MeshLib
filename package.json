@@ -8,6 +8,15 @@
     "dependencies": {
         "org.nuget.mathnet.numerics": "5.0.0"
    },
+   "scopedRegistries": [
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
+      ]
+    }
+  ],
     "author": {
       "name": "Dev.SGKim",
       "email": "sgkim6326y@gmail.com"
