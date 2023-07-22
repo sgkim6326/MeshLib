@@ -1,6 +1,6 @@
 {
     "name": "com.sgkim6326.meshlib",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Mesh Lib",
     "description": "This is a package that supports various functions based on Mesh: Simplification, Upscaling, Dimensionality Reduction, Clustering, Matching, Feature Extraction.",
     "unity": "2020.3",
@@ -8,17 +8,15 @@
     "dependencies": {
         "org.nuget.mathnet.numerics": "5.0.0"
    },
-   "scopedRegistries": [
-    {
-      "name": "Unity NuGet",
-      "url": "https://unitynuget-registry.azurewebsites.net",
-      "scopes": [
-        "org.nuget"
-      ]
-    }
-  ],
     "author": {
       "name": "Dev.SGKim",
       "email": "sgkim6326y@gmail.com"
-    }
+    },
+    "samples":[
+      {
+        "displayName": "All samples",
+        "path": "Samples"
+      }
+    ]
+
 }  
